@@ -24,6 +24,7 @@ input {
 }
 
 /* Buttons */
+
 .button {
 	padding: 0.25em 0.5em;
 	border: none;
@@ -92,3 +93,14 @@ input {
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 	background: #fff;
 }
+/*changes*/
+.footer{
+	background-color:white;
+}
+header :last-child{
+	box-shadow: 0 0 7px 1px  rgb(73, 73, 73);
+}
+.message--self{
+	margin: 1rem 1rem 1rem 3rem;
+}
+
