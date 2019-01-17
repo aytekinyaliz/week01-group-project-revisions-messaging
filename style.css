@@ -34,7 +34,10 @@ input {
 	text-decoration: none;
 	cursor: pointer;
 }
-
+ header .button {
+	border: solid 1px;
+	color: #fff
+ }
 /* Site title and top navigation */
 .site-header {
 	display: flex;
@@ -79,10 +82,14 @@ input {
 	color: rgba(0,0,0,0.6);
 	text-align: right;
 }
+.message--self {
+	margin: 1rem 1rem 1rem 3rem;
+}
 
 /* Input area to add a new message */
 .add-message {
-	padding: 0.5rem 1rem;
+	padding: 1rem 1em;
+	background-color: #fff
 }
 
 .add-message__input {
@@ -91,4 +98,8 @@ input {
 	border-radius: 2px;
 	box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 	background: #fff;
+	width: 81%;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #dadada
 }
